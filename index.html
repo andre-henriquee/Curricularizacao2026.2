@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saúde Feminina</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="phone-container">
+
+  <!-- TELA INÍCIO -->
+  <section class="screen active" id="inicio">
+
+    <div class="header-menu">
+      <button class="notification">
+        <img src="Assets/backgrounds/Sino.png" alt="">
+      </button>
+      <h2>Minha Saúde Feminina</h2>
+
+      <button class="user">
+        <img src="Assets/backgrounds/user-image.png" alt="">
+      </button>
+    </div>
+
+    <div class="welcome-card">
+      <div>
+        <h3>Bem-vinda de volta!</h3>
+        <p>Como podemos ajudar você hoje?</p>
+      </div>
+
+      <!-- <div class="woman-image"></div> -->
+    </div>
+
+    <div class="grid-cards">
+
+      <div class="small-card" onclick="showScreen('calendar')">
+        <img src="Assets/Calendário r.png" alt="Calendário">
+        <h4>Calendário</h4>
+        <p>Acompanhe seu ciclo menstrual</p>
+      </div>
+
+      <div class="small-card" onclick="showScreen('corpo')">
+        <img src="Assets/Imagem_corpo.png" alt="Saúde e Corpo">
+        <h4>Saúde e Corpo</h4>
+        <p>Informações e cuidados</p>
+      </div>
+
+      <div class="small-card" onclick="showScreen('wellbeing')">
+        <img src="Assets/Bem estar.png" alt="Bem-estar">
+        <h4>Bem-estar</h4>
+        <p>Dicas para sua saúde mental</p>
+      </div>
+
+      <div class="small-card" onclick="showScreen('duvidas')">
+        <img src="Assets/Dúvidas.png" alt="Dúvidas">
+        <h4>Dúvidas</h4>
+        <p>Pergunte e saiba mais</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- TELA SAÚDE E CORPO -->
+  <section class="screen" id="corpo">
+
+    <div class="top-area">
+      <div class="logo-box">
+        <img class="body-image" src="Assets/Imagem_corpo.png" alt="">
+        <!-- <div class="logo-circle"></div> -->
+        <div>
+          <h2>Saúde e Corpo</h2>
+          <p>Informações e cuidados com seu corpo</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="cycle-info">
+      <h3>Dia do ciclo: 14</h3>
+      <p>Próxima menstruação: 5 dias</p>
+      <p>Janela fértil: Hoje</p>
+    </div>
+
+    <div class="hormone-card pink">
+      <div>
+        <h4>Estrogênio</h4>
+        <span>65 pg/ml</span>
+      </div>
+      <button class="normal">Normal</button>
+    </div>
+
+    <div class="hormone-card purple">
+      <div>
+        <h4>Progesterona</h4>
+        <span>8 ng/ml</span>
+      </div>
+      <button class="normal">Normal</button>
+    </div>
+
+    <div class="hormone-card blue">
+      <div>
+        <h4>Lh (luteinizante)</h4>
+        <span>12 mIU/ml</span>
+      </div>
+      <button class="warning">Atenção</button>
+    </div>
+
+    <div class="hormone-card orange">
+      <div>
+        <h4>Fsh(Folículo estimulante)</h4>
+        <span>8 mIU/ml</span>
+      </div>
+      <button class="normal">Normal</button>
+    </div>
+
+  </section>
+
+  <!-- TELA 2 -->
+  <section class="screen" id="duvidas">
+
+    <div class="calendar-header">
+      <button class="back" onclick="showScreen('inicio')">←</button>
+      <h2>Dúvidas Frequentes</h2>
+    </div>
+
+    <div class="cycle-card">
+      <h3>O que é TPM?</h3>
+      <p>A TPM é um conjunto de sintomas físicos e emocionais que acontecem antes da menstruação.</p>
+    </div>
+
+    <div class="cycle-card">
+      <h3>Como aliviar cólicas?</h3>
+      <p>Compressas mornas, hidratação e exercícios leves podem ajudar no alívio.</p>
+    </div>
+
+    <div class="cycle-card">
+      <h3>Quando procurar um médico?</h3>
+      <p>Em casos de dores intensas, alterações frequentes ou sintomas persistentes.</p>
+    </div>
+
+  </section>
+
+  <!-- TELA 3 -->
+  <section class="screen" id="calendar">
+
+    <div class="calendar-header">
+      <button class="back">←</button>
+      <h2>Calendário</h2>
+      <button class="user">
+        <img src="Assets/backgrounds/user-image.png" alt="">
+      </button>
+    </div>
+
+    <div class="calendar-box">
+      <div class="month-nav">
+        <span>←</span>
+        <h3>Março 2026</h3>
+        <span>→</span>
+      </div>
+
+      <div class="weekdays">
+        <span>Dom</span>
+        <span>Seg</span>
+        <span>Ter</span>
+        <span>Qua</span>
+        <span>Qui</span>
+        <span>Sex</span>
+        <span>Sáb</span>
+      </div>
+
+      <div class="days-grid">
+        <span></span>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>
+        <span>6</span>
+
+        <span>7</span>
+        <span>8</span>
+        <span class="period">9</span>
+        <span class="period">10</span>
+        <span class="period">11</span>
+        <span class="period">12</span>
+        <span class="period">13</span>
+
+        <span>14</span>
+        <span>15</span>
+        <span>16</span>
+        <span>17</span>
+        <span class="today">18</span>
+        <span>19</span>
+        <span>20</span>
+      </div>
+    </div>
+
+    <div class="cycle-card">
+      <h3>18 de Março</h3>
+      <p>Fase Lútea • Dia 24 do Ciclo</p>
+
+      <button>+ Adicionar Sintomas</button>
+    </div>
+
+  </section>
+
+  <!-- TELA 4 -->
+  <section class="screen" id="wellbeing">
+
+    <div class="calendar-header">
+      <button class="back">←</button>
+      <h2>Seu Bem-estar</h2>
+      <button class="user">
+        <img src="Assets/backgrounds/user-image.png" alt="">
+      </button>
+    </div>
+
+    <div class="meditation-card">
+      <div class="meditation-title">
+        <h3>Equilíbrio Diário</h3>
+        <p>Cuide da sua saúde mental com carinho e acolhimento.</p>
+      </div>
+
+      <div class="meditation-image"><img src="Assets/backgrounds/Equilibrio diario.png" alt=""></div>
+    </div>
+
+    <h3 class="section-title" style="text-align: center;">Foco no Autocuidado</h3>
+
+    <div class="wellbeing-grid">
+
+      <div class="well-card">
+        <img class="emoji" src="Assets/backgrounds/Diario do humor.png" alt="">
+        <h4>Diário de Humor</h4>
+        <p>Registre como você se sente hoje</p>
+      </div>
+
+      <div class="well-card">
+        <img class="emoji" src="Assets/backgrounds/Lidando.png" alt"">
+        <h4>Lidando com a TPM</h4>
+        <p>Dicas para cólicas e irritabilidade</p>
+      </div>
+
+      <div class="well-card">
+        <img class="emoji" src="Assets/backgrounds/Sono Reparador.png" alt="">
+        <h4>Sono Reparador</h4>
+        <p>Rotinas para noites tranquilas</p>
+      </div>
+
+      <div class="well-card">
+        <img class="emoji" src="Assets/backgrounds/Lazer.png" alt="">
+        <h4>Momentos de Lazer</h4>
+        <p>Priorize atividades relaxantes</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- MENU INFERIOR -->
+  <nav class="bottom-nav">
+    <button onclick="showScreen('inicio')"><img class="icon-nav" src="Assets/backgrounds/Inicio.png" alt=""><span>Início</span></button>
+    <button onclick="showScreen('corpo')"><img class="icon-nav" src="Assets/backgrounds/rosa.png" alt=""><span>Corpo</span></button>
+    <button onclick="showScreen('calendar')"><img class="icon-nav" src="Assets/Calendário r.png" alt=""><span>Calendário</span></button>
+    <button onclick="showScreen('wellbeing')"><img src="Assets/backgrounds/heart-white.png" alt=""><span>Bem-estar</span></button>
+    <button onclick="showScreen('duvidas')"><img src="Assets/backgrounds/duvidas.png" alt=""><span>Dúvidas</span></button>
+  </nav>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
