@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="390" height="844" viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f8e6ec"/>
+
+  <!-- Header -->
+  <text x="195" y="60" font-size="24" text-anchor="middle" fill="#d16b86" font-family="Arial" font-weight="bold">
+    Minha Saúde Feminina
+  </text>
+
+  <!-- Welcome -->
+  <text x="20" y="110" font-size="20" fill="#6b4c57" font-family="Arial">
+    Bem-vinda!
+  </text>
+  <text x="20" y="140" font-size="14" fill="#6b4c57" font-family="Arial">
+    Como podemos ajudar hoje?
+  </text>
+
+  <!-- Cards -->
+  <rect x="20" y="180" width="160" height="120" rx="15" fill="#ffffff"/>
+  <text x="30" y="220" font-size="16" fill="#d16b86" font-family="Arial">Calendário</text>
+  <text x="30" y="245" font-size="12" fill="#6b4c57" font-family="Arial">Ciclo menstrual</text>
+
+  <rect x="210" y="180" width="160" height="120" rx="15" fill="#ffffff"/>
+  <text x="220" y="220" font-size="16" fill="#d16b86" font-family="Arial">Saúde e Corpo</text>
+  <text x="220" y="245" font-size="12" fill="#6b4c57" font-family="Arial">Cuidados gerais</text>
+
+  <rect x="20" y="320" width="160" height="120" rx="15" fill="#ffffff"/>
+  <text x="30" y="360" font-size="16" fill="#d16b86" font-family="Arial">Bem-estar</text>
+  <text x="30" y="385" font-size="12" fill="#6b4c57" font-family="Arial">Saúde mental</text>
+
+  <rect x="210" y="320" width="160" height="120" rx="15" fill="#ffffff"/>
+  <text x="220" y="360" font-size="16" fill="#d16b86" font-family="Arial">Dúvidas</text>
+  <text x="220" y="385" font-size="12" fill="#6b4c57" font-family="Arial">Perguntas comuns</text>
+
+  <!-- Bottom Nav -->
+  <rect x="0" y="760" width="390" height="84" fill="#ffffff"/>
+  <text x="50" y="800" font-size="12" fill="#d16b86" font-family="Arial">Início</text>
+  <text x="130" y="800" font-size="12" fill="#6b4c57" font-family="Arial">Áreas</text>
+  <text x="210" y="800" font-size="12" fill="#6b4c57" font-family="Arial">Informes</text>
+  <text x="290" y="800" font-size="12" fill="#6b4c57" font-family="Arial">Dicas</text>
+</svg>

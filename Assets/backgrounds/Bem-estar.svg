@@ -1,0 +1,93 @@
+<svg width="390" height="844" viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FCF1F5"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    
+    <linearGradient id="cardPink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FCE1E8"/>
+      <stop offset="100%" stop-color="#FCF3F5"/>
+    </linearGradient>
+    
+    <linearGradient id="cardPurple" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E2D4F0"/>
+      <stop offset="100%" stop-color="#F5F0FA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="url(#bgGlow)"/>
+
+  <circle cx="45" cy="80" r="20" fill="white" stroke="#F5DCE3" stroke-width="1"/>
+  <text x="45" y="86" font-size="18" font-weight="bold" fill="#B35D7A" text-anchor="middle" font-family="system-ui, sans-serif">&lt;</text>
+
+  <text x="195" y="86" font-size="20" font-weight="bold" fill="#B35D7A" text-anchor="middle" font-family="system-ui, sans-serif">Seu Bem-estar</text>
+
+  <circle cx="345" cy="80" r="20" fill="white" stroke="#F5DCE3" stroke-width="1"/>
+  <text x="345" y="86" font-size="16" text-anchor="middle">👤</text>
+
+
+  <rect x="20" y="130" width="350" height="190" rx="24" fill="url(#cardPink)"/>
+  
+  <text x="40" y="175" font-size="20" font-weight="bold" fill="#6A5A62" font-family="system-ui, sans-serif">Equilíbrio Diário</text>
+  <text x="40" y="200" font-size="15" fill="#8E7C85" font-family="system-ui, sans-serif">Cuide da sua saúde mental</text>
+  <text x="40" y="222" font-size="15" fill="#8E7C85" font-family="system-ui, sans-serif">com carinho e acolhimento.</text>
+
+  <circle cx="285" cy="225" r="65" fill="#ECAFC3" opacity="0.2"/>
+  <text x="285" y="230" font-size="12" font-weight="bold" fill="#B35D7A" text-anchor="middle" font-family="system-ui, sans-serif" opacity="0.6">Ilustração Aqui</text>
+
+
+  <text x="20" y="360" font-size="18" font-weight="bold" fill="#B35D7A" font-family="system-ui, sans-serif">Foco no Autocuidado</text>
+  
+  <rect x="20" y="380" width="165" height="170" rx="20" fill="url(#cardPink)"/>
+  <rect x="35" y="395" width="135" height="75" rx="12" fill="#F4BACD" opacity="0.2"/>
+  <text x="102" y="440" font-size="10" fill="#B35D7A" text-anchor="middle" font-family="system-ui, sans-serif" opacity="0.6">Imagem Humor</text>
+  <text x="35" y="500" font-size="16" font-weight="bold" fill="#B35D7A" font-family="system-ui, sans-serif">Diário de Humor</text>
+  <text x="35" y="520" font-size="12" fill="#8E7C85" font-family="system-ui, sans-serif">Registre como você</text>
+  <text x="35" y="535" font-size="12" fill="#8E7C85" font-family="system-ui, sans-serif">se sente hoje</text>
+
+  <rect x="205" y="380" width="165" height="170" rx="20" fill="url(#cardPurple)"/>
+  <rect x="220" y="395" width="135" height="75" rx="12" fill="#BCA6DF" opacity="0.2"/>
+  <text x="287" y="440" font-size="10" fill="#8A6EA8" text-anchor="middle" font-family="system-ui, sans-serif" opacity="0.6">Imagem TPM</text>
+  <text x="220" y="500" font-size="16" font-weight="bold" fill="#8A6EA8" font-family="system-ui, sans-serif">Lidando com a TPM</text>
+  <text x="220" y="520" font-size="12" fill="#8E7C85" font-family="system-ui, sans-serif">Dicas para cólicas</text>
+  <text x="220" y="535" font-size="12" fill="#8E7C85" font-family="system-ui, sans-serif">e irritabilidade</text>
+
+  <rect x="20" y="570" width="165" height="170" rx="20" fill="url(#cardPink)"/>
+  <rect x="35" y="585" width="135" height="75" rx="12" fill="#F4BACD" opacity="0.2"/>
+  <text x="102" y="630" font-size="10" fill="#B35D7A" text-anchor="middle" font-family="system-ui, sans-serif" opacity="0.6">Imagem Sono</text>
+  <text x="35" y="690" font-size="16" font-weight="bold" fill="#B35D7A" font-family="system-ui, sans-serif">Sono Reparador</text>
+  <text x="35" y="710" font-size="12" fill="#8E7C85" font-family="system-ui, sans-serif">Rotinas para noites</text>
+  <text x="35" y="725" font-size="12" fill="#8E7C85" font-family="system-ui, sans-serif">de descanso</text>
+
+  <rect x="205" y="570" width="165" height="170" rx="20" fill="url(#cardPurple)"/>
+  <rect x="220" y="585" width="135" height="75" rx="12" fill="#BCA6DF" opacity="0.2"/>
+  <text x="287" y="630" font-size="10" fill="#8A6EA8" text-anchor="middle" font-family="system-ui, sans-serif" opacity="0.6">Imagem Autocuidado</text>
+  <text x="220" y="690" font-size="16" font-weight="bold" fill="#8A6EA8" font-family="system-ui, sans-serif">Momentos de Lazer</text>
+  <text x="220" y="710" font-size="12" fill="#8E7C85" font-family="system-ui, sans-serif">Priorize atividades</text>
+  <text x="220" y="725" font-size="12" fill="#8E7C85" font-family="system-ui, sans-serif">que você gosta</text>
+
+
+  <rect x="20" y="760" width="350" height="40" rx="10" fill="#E2D4F0" opacity="0.4"/>
+  <text x="195" y="785" font-size="12" fill="#6A5A62" text-anchor="middle" font-family="system-ui, sans-serif">Tristeza ou ansiedade persistente? Converse na sua UBS.</text>
+
+
+  <rect x="0" y="743" width="390" height="1" fill="#EAEAEA"/>
+  <rect x="0" y="744" width="390" height="100" fill="white"/>
+  
+  <text x="45" y="780" font-size="24" text-anchor="middle" opacity="0.4">🏠</text>
+  <text x="45" y="805" font-size="12" font-weight="bold" fill="#A89A9F" text-anchor="middle" font-family="system-ui, sans-serif">Início</text>
+
+  <text x="120" y="780" font-size="24" text-anchor="middle">📁</text>
+  <text x="120" y="805" font-size="12" font-weight="bold" fill="#B35D7A" text-anchor="middle" font-family="system-ui, sans-serif">Áreas</text>
+
+  <text x="195" y="780" font-size="24" text-anchor="middle" opacity="0.4">💡</text>
+  <text x="195" y="805" font-size="12" font-weight="bold" fill="#A89A9F" text-anchor="middle" font-family="system-ui, sans-serif">Informes</text>
+
+  <text x="270" y="780" font-size="24" text-anchor="middle" opacity="0.4">🤍</text>
+  <text x="270" y="805" font-size="12" font-weight="bold" fill="#A89A9F" text-anchor="middle" font-family="system-ui, sans-serif">Dicas</text>
+
+  <text x="345" y="780" font-size="24" text-anchor="middle" opacity="0.4">💬</text>
+  <text x="345" y="805" font-size="12" font-weight="bold" fill="#A89A9F" text-anchor="middle" font-family="system-ui, sans-serif">Dúvidas</text>
+
+</svg>
