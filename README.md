@@ -1,4 +1,4 @@
-# Curricularizacao2025.2
+# Curricularizacao2026.2
 #  Projeto: Saúde Feminina
 
 Uma plataforma desenvolvida para apoiar a saúde feminina de forma acessível, moderna e acolhedora. Nosso aplicativo conecta tecnologia, informação e cuidado para ajudar mulheres a acompanharem sua saúde física, mental e emocional no dia a dia.
